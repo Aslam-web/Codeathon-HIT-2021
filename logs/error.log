@@ -1,0 +1,34 @@
+Starting the Apache2.2 service
+The Apache2.2 service is running.
+rmine the server's fully qualified domain name, using 192.168.56.1 for ServerName
+[Sat Sep 11 23:39:48 2021] [notice] Apache/2.2.14 (Win32) configured -- resuming normal operations
+[Sat Sep 11 23:39:48 2021] [notice] Server built: Sep 28 2009 22:41:08
+[Sat Sep 11 23:39:48 2021] [notice] Parent: Created child process 2692
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 192.168.56.1 for ServerName
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 192.168.56.1 for ServerName
+[Sat Sep 11 23:39:57 2021] [notice] Child 2692: Child process is running
+[Sat Sep 11 23:39:57 2021] [notice] Child 2692: Acquired the start mutex.
+[Sat Sep 11 23:39:57 2021] [notice] Child 2692: Starting 64 worker threads.
+[Sat Sep 11 23:39:57 2021] [notice] Child 2692: Starting thread to listen on port 80.
+[Sat Sep 11 23:39:58 2021] [error] [client 127.0.0.1] File does not exist: C:/Apache2.2/htdocs/favicon.ico, referer: http://localhost/
+[Sat Sep 11 23:57:22 2021] [error] [client 127.0.0.1] File does not exist: C:/Apache2.2/htdocs/layout
+[Sun Sep 12 01:30:05 2021] [error] [client 127.0.0.1] File does not exist: C:/Apache2.2/htdocs/css3/intro/AAIWL-ch02.html, referer: http://localhost/css3/intro/intro.html
+[Sun Sep 12 05:09:14 2021] [error] [client 127.0.0.1] File does not exist: C:/Apache2.2/htdocs/lab/css, referer: http://localhost/lab/box.html
+[Sun Sep 12 05:09:14 2021] [error] [client 127.0.0.1] File does not exist: C:/Apache2.2/htdocs/lab/jquery, referer: http://localhost/lab/box.html
+[Sun Sep 12 05:09:14 2021] [error] [client 127.0.0.1] File does not exist: C:/Apache2.2/htdocs/lab/jquery, referer: http://localhost/lab/box.html
+[Sun Sep 12 05:10:13 2021] [error] [client 127.0.0.1] File does not exist: C:/Apache2.2/htdocs/lab/css, referer: http://localhost/lab/box.html
+[Sun Sep 12 05:10:13 2021] [error] [client 127.0.0.1] File does not exist: C:/Apache2.2/htdocs/lab/jquery, referer: http://localhost/lab/box.html
+[Sun Sep 12 05:10:13 2021] [error] [client 127.0.0.1] File does not exist: C:/Apache2.2/htdocs/lab/jquery, referer: http://localhost/lab/box.html
+[Sun Sep 12 05:10:18 2021] [error] [client 127.0.0.1] File does not exist: C:/Apache2.2/htdocs/lab/css, referer: http://localhost/lab/box.html
+[Sun Sep 12 05:10:18 2021] [error] [client 127.0.0.1] File does not exist: C:/Apache2.2/htdocs/lab/jquery, referer: http://localhost/lab/box.html
+[Sun Sep 12 05:10:18 2021] [error] [client 127.0.0.1] File does not exist: C:/Apache2.2/htdocs/lab/jquery, referer: http://localhost/lab/box.html
+[Sun Sep 12 06:49:56 2021] [error] [client 127.0.0.1] File does not exist: C:/Apache2.2/htdocs/cgi2-bin, referer: http://localhost/lab/form.html
+[Sun Sep 12 06:55:01 2021] [error] [client 127.0.0.1] File does not exist: C:/Apache2.2/htdocs/htdocs
+[Sun Sep 12 08:03:37 2021] [error] [client 127.0.0.1] File does not exist: C:/Apache2.2/htdocs/favicon.ico
+[Sun Sep 12 08:04:21 2021] [error] [client 127.0.0.1] File does not exist: C:/Apache2.2/htdocs/favicon.ico
+[Sun Sep 12 08:26:39 2021] [error] [client 127.0.0.1] (20024)The given path is misformatted or contained invalid characters: Cannot map GET /lab/responsive_layout.htmlhttps://www.mozilla.org/en-US/firefox/92.0/whatsnew/all/?oldversion=91.0.2 HTTP/1.1 to file
+[Sun Sep 12 08:26:40 2021] [error] [client 127.0.0.1] File does not exist: C:/Apache2.2/htdocs/favicon.ico, referer: http://localhost/lab/responsive_layout.htmlhttps://www.mozilla.org/en-US/firefox/92.0/whatsnew/all/?oldversion=91.0.2
+[Sun Sep 12 09:25:33 2021] [error] [client 127.0.0.1] File does not exist: C:/Apache2.2/htdocs/lab/responsive_images.html
+[Sun Sep 12 09:25:57 2021] [error] [client 127.0.0.1] File does not exist: C:/Apache2.2/htdocs/lab/responsive_images.html
+[Sun Sep 12 09:26:15 2021] [error] [client 127.0.0.1] File does not exist: C:/Apache2.2/htdocs/lab/responsive_images.html
+[Sun Sep 12 09:40:34 2021] [error] [client 127.0.0.1] File does not exist: C:/Apache2.2/htdocs/favicon.ico, referer: http://localhost/lab/responsive_images.html

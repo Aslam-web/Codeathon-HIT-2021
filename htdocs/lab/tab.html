@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <title>jQuery Labs</title>
+
+    <script type="text/javascript" src="/jquery/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript">
+      $(function () {
+        //jQuery code here
+        $("div.tabbed a").click(function () {
+          $(this).parent().children().last().load(this.href);
+
+          var last = $(this).parent().data("last_selected");
+          if (last) last.removeClass("tabSelected");
+          $(this).parent().data("last_selected", $(this));
+          $(this).addClass("tabSelected");
+
+          return false;
+        });
+        $("div.tabbed a:first-child").click();
+      });
+    </script>
+
+    <style type="text/css">
+      .tabSelected {
+        background: grey;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Body HTML here -->
+    <div class="tabbed">
+        <a href="news.html">News</a>
+        <a href="event.html">Event</a>
+        <a href="safety.html">Safety</a>
+        <div>
+          <!--Content will go here-->
+        </div>
+      </div>
+      <div class="tabbed">
+        <a href="event.html">News</a>
+        <a href="news.html">Event</a>
+        <a href="safety.html">Safety</a>
+        <div>
+          <!--Content will go here-->
+        </div>
+      </div>
+  </body>
+</html>
